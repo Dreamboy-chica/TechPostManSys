@@ -1,0 +1,42 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(36,33,69);
+    color:whitesmoke;
+    padding:15px 15px;
+}
+
+.navbar i{
+    font-size:40px;
+}
+
+.homenav{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:rgb(36,33,69);
+    color:whitesmoke;
+    padding:15px 15px;
+    column-gap:170px ;
+}
+
+.navbar a{
+    font-size:20px;
+    text-decoration:none;
+    color:whitesmoke;
+}
+.navbar .name{
+    font-weight:bolder;
+    font-size:20px;
+    color:rgb(238, 60, 93);
+
+}
+
+.navbar a:hover{
+    color:yellow;
+}
+
+.navbottom{
+    padding-bottom:100px;
+    background-color:rgb(42,39,83);
+    
+}

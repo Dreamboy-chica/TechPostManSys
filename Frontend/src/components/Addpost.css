@@ -1,0 +1,72 @@
+.formcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f4f4f4;
+  }
+  
+  .form {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    margin-top:-75px;
+  }
+  
+  .msg {
+    color: #d9534f;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .title,
+  .cat,
+  .body {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .title:focus,
+  .cat:focus,
+  .body:focus {
+    border-color:gainsboro;
+    outline: none;
+  }
+  
+  .cat {
+    cursor: pointer;
+  }
+  
+  .body {
+    min-height: 100px;
+    resize: none;
+  }
+  
+  .addpost {
+    background-color:black;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 40%;
+    font-weight:bold;
+    margin-left:140px;
+    margin-top:10px;
+  }
+
+  .addpost:hover{
+    color:rgb(81, 180, 81);
+  }
+  
+ 
+ 
+  
